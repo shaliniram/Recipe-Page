@@ -1,16 +1,19 @@
 *{
     margin:0;
     padding:0;
+
 }
 
 body{
     background-color: hsl(30, 54%, 90%);
     display: flex;
     flex-direction: column;
+    min-height: 100vh; 
 }
 
 
 .container{
+   
     background-color: white;
     width: 650px;
     margin: 0 auto;
@@ -18,14 +21,15 @@ body{
     position: relative;
     top: 5em;
     padding-top:5px;
-
+    
 }
    
 
 .first,.second,.third,.fourth,.fifth,.sixth{
-    padding: 5px;
     width: 85%;
     margin: 0 auto;
+    margin-top:20px;
+
 }
 
 .first img {
@@ -42,13 +46,13 @@ body{
 }
 
 
-.second p{
+.second p,.sixth p{
  
   font-family: "Outfit", sans-serif;
   font-style: normal;
   font-size: 0.9rem;
   color: hsl(30, 10%, 34%);
-
+    padding-top: 10px;;
 }
 
 .third{
@@ -95,4 +99,63 @@ body{
     color: hsl(30, 10%, 34%);
     font-family: "Outfit", sans-serif;
     font-size: 0.9rem;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+    border: none; 
+    height: 0.5px;
+    background-color:  hsl(30, 18%, 87%);
+    
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;;
+  margin-bottom: 10px;;
+}
+
+.grid-item{
+    padding: 10px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #ccc; 
+    border-width: 90%;
+}
+
+.last{
+    border:none;
+}
+
+.attribution {
+    
+    text-align: center; /* Center the text horizontally */
+    margin-top: 100px; /* Add some space between the container and attribution */
+    margin-bottom: 40px; /
+  }
+
+
+  @media (max-width: 560px) {
+    .container {
+        width: 100%;
+        border-radius: 0;
+        padding: 0px;
+        margin: 0;
+        padding-bottom: 15px;
+        position: relative;
+        top: 0;
+        bottom:0;
+    }
+    *{
+        margin:0;
+        padding:0;
+    
+    }
+    
 }
