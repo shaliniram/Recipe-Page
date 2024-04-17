@@ -19,13 +19,14 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./assets/images/Recipe_page.png)
+![Desktop View](./assets/images/Recipe_page.png)
+![Mobile View](./assets/images/Mobile_page.png)
 
 
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://github.com/shaliniram/Recipe-Page)
 - Live Site URL: [LIVE](https://shaliniram.github.io/Recipe-Page/)
 
 ## My process
