@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container{
+    background-color: white;
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    top: 5em;
+    padding-top:5px;
+
+}
+   
+
+.first,.second,.third,.fourth,.fifth,.sixth{
+    padding: 5px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.first img {
+    width: 100%; 
+    border-radius: 15px;
+}
+
+
+.second h1{
+    font-family: "Young Serif", serif;
+    font-weight: lighter;
+    font-size: 2.5em;
+    color: hsl(24, 5%, 18%);
+}
+
+
+.second p{
+ 
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-size: 0.9rem;
+  color: hsl(30, 10%, 34%);
+
+}
+
+.third{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+
+.third h2{
+    padding-left: 10px;
+    padding-top: 20px;;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;;
+}
+
+
+.third ul{
+    padding:20px;
+    padding-left: 40px;
+}
+
+
+.third li,.fourth li{
+    padding: 5px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9rem;
+}
+
+
+.fourth h2, .fifth h2, .sixth h2{
+        color:  hsl(14, 45%, 36%);
+        font-family: "Young Serif", serif;
+        font-weight: lighter;
+        font-size: 1.5rem;
+    }
+    
+.fourth ul,.fifth ol{
+    padding: 10px;;
+}
+
+.fifth li{
+    padding: 5px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9rem;
+}
