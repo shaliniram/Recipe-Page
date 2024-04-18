@@ -136,10 +136,12 @@ hr {
 .attribution {
     
     text-align: center; /* Center the text horizontally */
-    margin-top: 100px; /* Add some space between the container and attribution */
+    margin-top: 140px; /* Add some space between the container and attribution */
     margin-bottom: 40px; /
   }
 
+  .attribution p{
+    font-size: 0.75rem;}
 
   @media (max-width: 560px) {
     .container {
@@ -161,5 +163,7 @@ hr {
     .attribution {
         display:block;
         margin: 0;
+        font-size: 0.5rem;
+        background-color: white;
     }
 }
